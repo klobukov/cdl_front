@@ -1,0 +1,30 @@
+//colors
+$light-color: #A6DEFFFF;
+$medium-color: #1E90FF;
+$dark-color: #337ab7;
+$extra-color: blue;
+$weak-color: #ddd;
+$attention-color: firebrick;
+
+//margins
+$big-margin: 3%;
+$little-margin: 1%;
+
+//fonts
+$main-font-color: #333;
+$main-font-size: 14px;
+$mobile-font-size: 10px;
+$tamagochi-font-size: 8px;
+$big-font: 1.3em;
+$extreme-font: 2em;
+
+//mixins
+@mixin button {
+	margin-left: $little-margin;
+	height: 26px;
+	width: 70px;
+	background: $dark-color;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+}
