@@ -4,7 +4,6 @@ import ReactSwipe from 'react-swipe';
 
 import '../Styles/header.css';
 import logo from '../images/logo.jpg';
-import flr from '../images/flr.jpg'
 import photo1 from '../images/2.jpg';
 import photo2 from '../images/3.jpg';
 import photo3 from '../images/4.jpg';
@@ -48,7 +47,7 @@ export default class Header extends React.Component{
 						<li>Стоимость 2000 руб.</li>
 						<li>Сжатые сроки исследования: 2 дня со дня забора.</li>
 						<li>Результаты на бланке государственного образца ФГБУЗ "ЦГиЭ в РК и г.Севастополе.</li>
-						<li>Перевод на английский язык на фирменоом бланке.</li>
+						<li>Перевод на английский язык на фирменном бланке.</li>
 						<li>Отправка результатов на электронную почту.</li>
 					</ul>
 				</div>
