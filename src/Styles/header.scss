@@ -42,6 +42,21 @@
 	text-align: center;
 }
 
+.header__covid_container {
+	width: 50%;
+	h3 {
+		color: $attention-color;
+		text-align: center;
+		font-size: 30px;
+	}
+	ul {
+		font-size: 25px;
+		li {
+			padding: 5px;
+		}
+	}
+}
+
 @media (max-width: 576px){
 	.header__info{
 		margin: auto;

@@ -32,6 +32,17 @@
   font-size: 2em;
   text-align: center; }
 
+.header__covid_container {
+  width: 50%; }
+  .header__covid_container h3 {
+    color: firebrick;
+    text-align: center;
+    font-size: 30px; }
+  .header__covid_container ul {
+    font-size: 25px; }
+    .header__covid_container ul li {
+      padding: 5px; }
+
 @media (max-width: 576px) {
   .header__info {
     margin: auto; }

@@ -40,8 +40,17 @@ export default class Header extends React.Component{
 				<div className="header__slideShow">
 					<Carousel />
 				</div>
-				<div className="header__flr">
-					<span>Предъявителю <a href={flr} alt="Флаер" title="Флаер" target="_blank">ФЛАЕРА</a> скидка 10% на все виды анализов</span>
+				<div className="header__covid_container">
+					<h3>Анализ на COVID-2019</h3>
+					<ul>
+						<li>ПЦР метод.</li>
+						<li>Ежедневно с 11:00 до 14:00 кроме субботы и воскресенья.</li>
+						<li>Стоимость 2000 руб.</li>
+						<li>Сжатые сроки исследования: 2 дня со дня забора.</li>
+						<li>Результаты на бланке государственного образца ФГБУЗ "ЦГиЭ в РК и г.Севастополе.</li>
+						<li>Перевод на английский язык на фирменоом бланке.</li>
+						<li>Отправка результатов на электронную почту.</li>
+					</ul>
 				</div>
 			</header>
 		)
