@@ -9,6 +9,8 @@ import photo2 from '../images/3.jpg';
 import photo3 from '../images/4.jpg';
 import photo4 from '../images/6.jpg';
 import photo5 from '../images/7.jpg';
+import covidImg from '../images/covid.png'
+
 
 export default class Header extends React.Component{
 
@@ -40,10 +42,13 @@ export default class Header extends React.Component{
 					<Carousel />
 				</div>
 				<div className="header__covid_container">
-					<h3>Анализ на COVID-2019</h3>
+					<div className="header__covid_header">
+						<div>Анализ на COVID-2019</div>
+						<img src={covidImg} alt="Covid" />
+					</div>
 					<ul>
 						<li>ПЦР метод.</li>
-						<li>Ежедневно с 11:00 до 14:00 кроме субботы и воскресенья.</li>
+						<li>Ежедневно с 11:00 до 14:00 с понедельника по четверг.</li>
 						<li>Стоимость 2000 руб.</li>
 						<li>Сжатые сроки исследования: 2 дня со дня забора.</li>
 						<li>Результаты на бланке государственного образца ФГБУЗ "ЦГиЭ в РК и г.Севастополе.</li>

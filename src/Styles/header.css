@@ -34,14 +34,23 @@
 
 .header__covid_container {
   width: 50%; }
-  .header__covid_container h3 {
-    color: firebrick;
-    text-align: center;
-    font-size: 30px; }
   .header__covid_container ul {
-    font-size: 25px; }
+    font-size: 25px;
+    margin-top: 0; }
     .header__covid_container ul li {
       padding: 5px; }
+
+.header__covid_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .header__covid_header div {
+    color: firebrick;
+    font-size: 30px; }
+  .header__covid_header img {
+    width: 130px;
+    height: 100px; }
 
 @media (max-width: 576px) {
   .header__info {
