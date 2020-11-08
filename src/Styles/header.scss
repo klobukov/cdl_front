@@ -44,27 +44,8 @@
 
 .header__covid_container {
 	width: 50%;
-	ul {
-		font-size: 25px;
-		margin-top: 0;
-		li {
-			padding: 5px;
-		}
-	}
-}
-
-.header__covid_header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	div {
-		color: $attention-color;
-		font-size: 30px;
-	}
 	img {
-		width: 130px;
-		height: 100px;
+		width: 100%;
 	}
 }
 
