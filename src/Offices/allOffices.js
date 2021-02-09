@@ -23,4 +23,16 @@ var mk1 = {
 }
 export { mk1 }
 
-export default [mainOffice, mk1]
+let stal = {
+	header: "Манипуляционный кабинет №2",
+	address: 'ул. Героев Сталинграда 43, пансионат "Севастополь" (вход справа)',
+	workDays: "Понедельник - Пятница",
+	samplingBioMaterialTime: "08:00 - 12:00",
+	resultsTime: "12:00 - 17:00",
+	phone: "(8692)55-61-92",
+	locationForLink: "https://www.google.com/maps/place/Sevastopol/@44.591583,33.444468,17z/data=!4m5!3m4!1s0x0:0xb3e44550aab46607!8m2!3d44.591743!4d33.44362?hl=ru",
+	locationForFrame: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1689.4308193086963!2d33.44405022268329!3d44.59144881011781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40953c95a9438a35%3A0xb3e44550aab46607!2sSevastopol!5e0!3m2!1sen!2s!4v1612878512009!5m2!1sen!2s"
+}
+export { stal }
+
+export default [mainOffice, mk1, stal]
