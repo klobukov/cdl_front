@@ -32,10 +32,6 @@
   font-size: 2em;
   text-align: center; }
 
-.header__temp_alert {
-  color: red;
-  font-size: 20px; }
-
 .header__covid_container {
   width: 50%; }
   .header__covid_container img {

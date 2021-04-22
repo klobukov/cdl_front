@@ -46,9 +46,6 @@ export default class Header extends React.Component{
 				<div className="header__slideShow">
 					<Carousel />
 				</div>
-				<div className="header__temp_alert">
-					<h3>По техническим причинам с 19 апреля по 9 мая анализ на COVID-19 не принимается.</h3>
-				</div>
 				<div className="header__covid_container">
 					<img src={covidFull} alt="Covid" />
 				</div>
