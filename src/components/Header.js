@@ -1,5 +1,5 @@
 import React from 'react';
-import { mainOffice, mk1, stal } from '../Offices/allOffices.js';
+import { mainOffice, mk1 } from '../Offices/allOffices.js';
 import ReactSwipe from 'react-swipe';
 
 import '../Styles/header.css';
@@ -36,10 +36,6 @@ export default class Header extends React.Component{
 						   Забор биоматериала: {mk1.samplingBioMaterialTime}<br/>
 						   Выдача результатов: {mk1.resultsTime}<br/>
 						   Тел.: {mk1.phone}<br/><br/>
- 						   <span>{stal.address}</span><br/>
-						   Забор биоматериала: {stal.samplingBioMaterialTime}<br/>
-						   Выдача результатов: {stal.resultsTime}<br/>
-						   Тел.: {stal.phone}<br/>
 						</p>
 					</div>
 				</div>

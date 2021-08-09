@@ -35,4 +35,4 @@ let stal = {
 }
 export { stal }
 
-export default [mainOffice, mk1, stal]
+export default [mainOffice, mk1]
