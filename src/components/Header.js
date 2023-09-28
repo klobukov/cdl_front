@@ -49,7 +49,7 @@ export default class Header extends React.Component{
 
 	message() {
 		return null // temp disabled
-		
+
 		return (
 			<div style={{"border": "5px solid blue", "padding": "10px", "margin-bottom": "10px"}}>
 				<div style={{"font-size": "20px", "text-align": "center", "margin-bottom": "10px"}}>

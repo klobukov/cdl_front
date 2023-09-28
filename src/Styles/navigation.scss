@@ -15,7 +15,7 @@
 
 .navigation__tab {
 	border-radius: 4px;
-	width: 40%;
+	width: 30%;
 	min-height: 30px;
 	border: 1px solid $medium-color;
 	margin-left: $little-margin;
@@ -42,6 +42,6 @@
 @media (max-width: 576px) {
 	.navigation__tab {
 		width: 100%;
-		margin-top: $little-margin; 
+		margin-top: $little-margin;
 	}
 }
