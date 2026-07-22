@@ -26,9 +26,8 @@ export default class AnalysisSubdivisionsGroup extends React.Component{
 			});
 		})
 		.catch(err => {
-			const errorMessage = "Ошибка подключения к базе данных..:(";
 			this.setState({
-				subdivisions: errorMessage
+				subdivisions: "Ошибка подключения к базе данных..:("
 			});
 		});		
 	}

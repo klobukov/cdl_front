@@ -1,1 +1,1 @@
-export const baseURL =  process.env.NODE_ENV === 'development' ? "http://localhost/cdlreact/" : "";
+export const baseURL =  process.env.NODE_ENV === 'development' ? "http://localhost/" : "";
