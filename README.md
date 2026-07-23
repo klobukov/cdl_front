@@ -6,7 +6,7 @@ CDL
 1. yarn start
 
 ## back
-1. 
+1. docker compose up
 
 # build
 1. запустить npm run-script build
