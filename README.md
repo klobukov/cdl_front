@@ -9,7 +9,7 @@ CDL
 1. docker compose up
 
 # build
-1. запустить npm run-script build
+1. yarn build
 
 2. должна появиться папка build, убедиться что в ней
 * есть папка backend (просто скопировать ее из проекта в build (автоматом она не должна по идее там появиться),
