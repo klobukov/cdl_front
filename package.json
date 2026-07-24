@@ -20,7 +20,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
     "jquery.maskedinput": "^1.4.1",
-    "sass": "^1.101.3"
+    "sass": "^1.101.3",
+    "typescript": "^7.0.2"
   }
 }
