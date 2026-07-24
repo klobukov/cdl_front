@@ -7,7 +7,7 @@ import ArrowUp from '../ArrowUp.js'
 
 const name = "Политика обработки персональный данных"
 const url = "/politics"
-const output = function Price(){
+const element = function Price(){
   return(
     <Fragment>
       <Header/>
@@ -21,7 +21,7 @@ const output = function Price(){
   )
 }
 
-export default new Page(name, url, output);
+export default new Page(name, url, element)
 
 
 
